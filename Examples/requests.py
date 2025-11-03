@@ -1,6 +1,6 @@
 import requests # pip install requests
 
-resp = requests.post("https://gpt.membean.lol", json={
+resp = requests.post("https://gpt.membean.lol/v1/chat/completions", json={
     "messages": [
         {"role": "system", "content": "You are a helpful assistant."}, # system prompt optional
         {"role": "user", "content": "Hi!"},
