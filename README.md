@@ -14,12 +14,6 @@
   
   I recommend using this in tools like Kilo Code, or any other IDE that allows for any open ai compatible endpoints. Both models are very good at tool calls.
 
-  
+## Changelog
 
-
-
-
-
-
-
-  i'm pretty bad at readme's ill clean this one up later just try ts out.
+- 2025-11-11: Added support for Anthropic /v1/messages api. You can now specify "ANTHROPIC_BASE_URL" as "https://gpt.membean.lol" in claude code.
