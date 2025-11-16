@@ -4,10 +4,11 @@ req = requests.get("https://gpt.membean.lol/v1/models")
 
 print(req.json())
 
-# this code prints the (currently 3) models able to be used on this api.
+# this code prints the (currently 4) models able to be used on this api.
 # 1. gpt-oss-120b
 # 2. gpt-oss-20b
-# 3. gpt-5.1 (polaris alpha)
+# 3. glm-4.5-air
+# 4. qwen2.5-vl-32b
 
 # currently, there are much less ratelimits on 20b
 # because of the api provider I am using for that, 
